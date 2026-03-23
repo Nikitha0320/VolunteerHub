@@ -41,7 +41,6 @@ function RegisterPage() {
         <select className="input" value={form.role} onChange={(e) => setForm({ ...form, role: e.target.value })}>
           <option value="VOLUNTEER">Volunteer</option>
           <option value="ORGANIZER">Organizer</option>
-          <option value="ADMIN">Admin</option>
         </select>
         {form.role !== 'ADMIN' && (
           <>
