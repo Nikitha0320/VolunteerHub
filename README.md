@@ -69,10 +69,3 @@ volunteer/
 ### Admin
 - View all users
 - Delete users
-
-Frontend starts on: `http://localhost:5173`
-
-## Notes
-- Backend is pre-configured for Aiven MySQL with SSL required.
-- `ddl-auto=update` automatically creates/updates tables.
-- No manual DB setup is required for connection configuration.
